@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Race Game</title>
+  <style>
+    #game-board {
+      width: 400px;
+      height: 500px;
+      position: relative;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
+    .car {
+      width: 50px;
+      height: 80px;
+      position: absolute;
+      bottom: 0;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Car Race Game</h1>
+  <div id="game-board">
+    <div id="player-car" class="car"></div>
+    <div id="computer-car" class="car"></div>
+  </div>
+  <button id="start-button">Start Game</button>
+
+  <script src="game.js"></script>
+</body>
+</html>
